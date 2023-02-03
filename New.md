@@ -4,8 +4,6 @@
 ,(select*from(select(sleep(15)))a)
 ';WAITFOR DELAY '0:0:30'--
 ```
-## Error Based SQL Injection:
-
 ## Boolean Based Blind SQL Injection:
 ```
 '2 OR 1=1
@@ -31,7 +29,7 @@ https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
 ```
 ## Application is Vulnerable to Reverse Web shell (Shell Execution):
 ```
-
+https://www.revshells.com
 ```
 ## File Upload Bypass:
 ```
@@ -104,9 +102,10 @@ Step1: Capture any POST data and click generate CSRF poc, save it into the html 
 Step2: Change the POST data to anything you want.
 Step3: Now open into the browser and click submit.
 ```
-### Test CGI script exposes environment variables
-### Account Takeover through forget password
-### Improper File Content Validation in the Application
+### Account Takeover through forget password:
+```
+https://infosecwriteups.com/all-about-password-reset-vulnerabilities-3bba86ffedc7
+```
 ### No Session Termination After Password Change:
 ```
 Step1: Login as a user, After logged in capture a request of any functionality and get into the Repeater and send to Response.
@@ -114,7 +113,6 @@ Step2: Wait minimum 40,50 minutes, Do not loggout the account.
 Step3: After complete the time, then again click send to the reponse in the Burpsuite.
 Step4: If its working properly, then it No Session Termination Vulnerability.
 ```
-### Password History Check is not Implemented
 ### Concurrent Logins with the Same Username in admin/user account:
 ```
 
@@ -122,7 +120,10 @@ Step4: If its working properly, then it No Session Termination Vulnerability.
 ### Trace method Enabled:
 ```
 ```
-### Full path disclosure
+### Full path disclosure:
+```
+
+```
 ### Improper Input Validation in the Application:
 ```
 <script>alert(1)</script>
