@@ -116,7 +116,7 @@ Step4: If its working properly, then it No Session Termination Vulnerability.
 ```
 ### Concurrent Logins with the Same Username in admin/user account:
 ```
-Step1: Same time, try to login same user in two different computer.
+Step1: Same time, try to login same user account in two different computer.
 ```
 ### Trace method Enabled:
 ```
