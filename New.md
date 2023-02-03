@@ -124,6 +124,20 @@ Step4: If its working properly, then it No Session Termination Vulnerability.
 <h1>Test</h1>
 ```
 ### Client side validation bypass of email and phone number verification
-### Application is Vulnerable to Clickjacking Attacks
-### OpenSSL Version disclose in the application
+### Application is Vulnerable to Clickjacking Attacks:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is Clickjacking Test Page!</title>
+</head>
+<body>
+<iframe src="https://url.com" width="500" height="500"></iframe>
+</body>
+</html>
+```
+### OpenSSL Version disclose in the application:
+```
+
+```
 ### Last Login Time Not Implemented in the Application
