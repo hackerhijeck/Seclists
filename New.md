@@ -52,7 +52,7 @@ Step1: Before login, Check the cookie or session token.
 Step2: Then After login, Check the cookie or session token, If same token or cookies is there.
 ```
 ## URL Redirection in the application:
-##### Enpoint Pattern:
+##### Endpoint Pattern:
 ```
 /?url=
 /?redirect_url:
