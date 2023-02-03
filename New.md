@@ -73,9 +73,11 @@ Step2: If Response code 404 Forbidon then change to 200 OK. and then forward the
 ```
 #### Process 2:
 ```
-Step1: In login panel first logged in a valid user and capture the request and "Do intercept" and click to "respnse to this request" and then forward the request.
+Step1: In login panel first logged in a valid user and capture the request and "Do intercept" and click to "response to 
+        this request" and then forward the request.
 Step2: Copy the 200 OK reponse data and save it any txt format.
-Step3: Now try to unathorized user, in login panel capture the request and "Do intercept" and click to "respnse to this request" and then forward the request.
+Step3: Now try to unathorized user, in login panel capture the request and "Do intercept" and click to "response to 
+        this request" and then forward the request.
 Step4: In Response data, paste the data which copied from a valid user, and then forward the request.
 ```
 ## Cross Site Request Forgery (CSRF)
