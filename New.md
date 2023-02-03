@@ -115,15 +115,23 @@ Step3: After complete the time, then again click send to the reponse in the Burp
 Step4: If its working properly, then it No Session Termination Vulnerability.
 ```
 ### Password History Check is not Implemented
-### Concurrent Logins with the Same Username in admin/user account
-### Trace method Enabled
+### Concurrent Logins with the Same Username in admin/user account:
+```
+
+```
+### Trace method Enabled:
+```
+```
 ### Full path disclosure
 ### Improper Input Validation in the Application:
 ```
 <script>alert(1)</script>
 <h1>Test</h1>
 ```
-### Client side validation bypass of email and phone number verification
+### Client side validation bypass of email and phone number verification:
+```
+
+```
 ### Application is Vulnerable to Clickjacking Attacks:
 ```
 <!DOCTYPE html>
@@ -136,8 +144,7 @@ Step4: If its working properly, then it No Session Termination Vulnerability.
 </body>
 </html>
 ```
-### OpenSSL Version disclose in the application:
+### Last Login Time Not Implemented in the Application:
 ```
 
 ```
-### Last Login Time Not Implemented in the Application
