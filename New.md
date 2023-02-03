@@ -33,17 +33,33 @@
 https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
 ```
 ## Application is Vulnerable to Reverse Web shell (Shell Execution):
+```
 
+```
 ## File Upload Bypass:
 ```
 https://book.hacktricks.xyz/pentesting-web/file-upload
 ```
 ## Session Hijacking:
 ```
-
+Step1: Using xss hunter payload, execute the payload in logged in user account.
+Step2: After got the cookies in the XSS Hunter.
+Step3: Copy the cookies and before login paste and change into the cookies and refresh it.
 ```
-## Session Fixation in The Application
+## Session Fixation in The Application:
+```
+Step1: Before login, Check the cookie or session token.
+Step2: Then After login, Check the cookie or session token, If same token or cookies is there.
+```
 ## URL Redirection in the application:
+```
+#### Enpoint Pattern:
+/?url=
+/?redirect_url:
+/?checkout_url=
+/?login_url=
+/?redirect_uri=
+```
 ## Reflected Cross Site Scripting Attack:
 ```
 <script>alert(1)</script>
@@ -94,7 +110,11 @@ Step4: In Response data, paste the data which copied from a valid user, and then
 ### Concurrent Logins with the Same Username in admin/user account
 ### Trace method Enabled
 ### Full path disclosure
-### Improper Input Validation in the Application
+### Improper Input Validation in the Application:
+```
+<script>alert(1)</script>
+<h1>Test</h1>
+```
 ### Client side validation bypass of email and phone number verification
 ### Application is Vulnerable to Clickjacking Attacks
 ### OpenSSL Version disclose in the application
