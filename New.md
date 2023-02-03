@@ -101,7 +101,12 @@ Step3: Now try to unathorized user, in login panel capture the request and "Do i
         this request" and then forward the request.
 Step4: In Response data, paste the data which copied from a valid user, and then forward the request.
 ```
-## Cross Site Request Forgery (CSRF)
+## Cross Site Request Forgery (CSRF):
+```
+Step1: Capture any POST data and click generate CSRF poc, save it into the html file.
+Step2: Change the POST data to anything you want.
+Step3: Now open into the browser and click submit.
+```
 ### Test CGI script exposes environment variables
 ### Account Takeover through forget password
 ### Improper File Content Validation in the Application
