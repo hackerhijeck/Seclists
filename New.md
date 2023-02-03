@@ -9,11 +9,7 @@
 ## Boolean Based Blind SQL Injection:
 ```
 '2 OR 1=1
-''2 OR 1=1
-"2 OR 1=1
 '2 AND 1=1
-''2 AND 1=1
-"2 AND 1=1
 ```
 ## Local File Inclusion (LFI):
 ```
