@@ -46,13 +46,38 @@ https://github.com/hackerhijeck/For_Me/blob/main/Web_Shell.php
 ### Session Fixation in The Application
 ### Application is Vulnerable to Forceful Browsing
 ### Insecure Direct Object Reference
-### URL Redirection in the application
+### URL Redirection in the application:
 ### Reflected Cross Site Scripting Attack
 ### HTML Injection
-### Link Injection
-### Iframe Injection
-### Blind Cross Site Scripting Attack
-### Admin/User Login Authentication Bypass Using Success Response
+```
+<h1>HTML_Injection</h1>
+<marquee>HTML_Injection</marquee>
+```
+### Link Injection:
+```
+<a href="https://www.intelliroot.com">Test</a>
+```
+### Iframe Injection:
+```
+<iframe src="https://https://www.intelliroot.com"></iframe>
+```
+### Blind Cross Site Scripting Attack:
+```
+XSS Hunter payload
+```
+### Admin/User Login Authentication Bypass Using Success Response:
+#### Process 1:
+```
+Step1: Login panel capture the request and Do intercept and click to respnse to this request and then forward the request
+Step2: If Response code 404 Forbidon then change to 200 OK. and then forward the request.
+```
+#### Process 2:
+```
+Step1: In login panel first logged in a valid user and capture the request and "Do intercept" and click to "respnse to this request" and then forward the request.
+Step2: Copy the 200 OK reponse data and save it any txt format.
+Step3: Now try to unathorized user, in login panel capture the request and "Do intercept" and click to "respnse to this request" and then forward the request.
+Step4: In Response data, paste the data which copied from a valid user, and then forward the request.
+```
 ### Cross Site Request Forgery (CSRF)
 ### Restricted Functionality Access in the Application
 ### Parameter Manipulation
