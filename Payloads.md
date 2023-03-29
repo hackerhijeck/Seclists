@@ -72,11 +72,11 @@ javascript:alert(1)//
 ```
 ## Link Injection:
 ```
-<a href="https://www.intelliroot.com">ClickMe</a>
+<a href="https://google">ClickMe</a>
 ```
 ## Iframe Injection:
 ```
-<iframe src="https://www.intelliroot.com"></iframe>
+<iframe src="https://google.com"></iframe>
 ```
 ## Blind Cross Site Scripting Attack:
 ```
